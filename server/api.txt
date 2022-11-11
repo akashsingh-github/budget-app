@@ -1,0 +1,31 @@
+Add a new family member
+
+family                          : list the members of the family {name, image}
+family/member                   : details about particular member {name, age, spent, added_money}
+family/add_member               : add a new member to the family
+family/member/:id/delete        : delete a member from the family
+
+Amount
+amount                          : return total amount
+amount/add                      : add new amount
+
+Expense
+expenses                        : return total expenses
+expense/add                     : add new expense
+expense/:id                     : view complete detail of expense
+expense/:id/delete              : delete particular expense 
+expense/:id/update              : update particular expense
+
+borrow
+borrowed                        : show the list of borrowed money
+borrow/add                      : Add new borrowed money
+borrow/:id                      : view complete detail of borrowed money
+borrow/:id/delete
+borrow/:id/update
+
+Lend
+lends                           : list
+lend/add
+lend/:id
+lend/:id/delete
+lend/:id/update
